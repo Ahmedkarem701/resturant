@@ -1,0 +1,235 @@
+.top-area .top-bar .top-social {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.top-area .top-bar .top-social li a {
+    margin-right: 5px;
+    margin-left: 0;
+}
+.top-area .top-bar .opening-hours {
+    float: left;
+}
+.top-area .top-bar .call-to-action p {
+    margin: 0 0 0 13px;
+}
+.ms-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+.transparent-navbar.navbar-expand-lg .navbar-nav .nav-item:last-child {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.navbar-nav {
+    padding-right: 0;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.story-content .section-title {
+    text-align: right;
+}
+.story-content .story-quote .quote-info {
+    padding-right: 85px;
+    padding-left: 0;
+}
+.story-content .story-quote .quote-info img {
+    right: 0;
+    left: auto;
+}
+.line-bg {
+    left: 0;
+    right: auto;
+}
+.tab .tabs_item .single-menu {
+    padding-right: 110px;
+    padding-left: 0;
+}
+.tab .tabs_item .single-menu .food-menu-img {
+    right: 0;
+    left: auto;
+}
+.tab .tabs_item .single-menu .food-menu-content h3 .menu-price {
+    float: left;
+}
+.text-end {
+    text-align: left !important;
+}
+.single-features {
+    padding-right: 80px;
+    padding-left: 0;
+}
+.single-features .icon {
+    right: 0;
+    left: auto;
+}
+.features-area .col-lg-4:first-child .single-features {
+    padding-right: 0;
+    padding-left: 80px;
+    text-align: left;
+}
+.features-area .col-lg-4:first-child .single-features .icon {
+    right: auto;
+    left: 0;
+}
+.single-blog-post .blog-post-content ul li {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.single-blog-post .blog-post-content ul li:last-child {
+    margin-left: 0;
+}
+.contact-box p {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.contact-box p i {
+    right: 0;
+    left: auto;
+}
+.footer-area ul {
+    text-align: left;
+}
+.footer-area ul li {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.footer-area ul li:first-child {
+    padding-right: 0;
+}
+.footer-area ul li::before {
+    right: 7px;
+    left: auto;
+}
+.go-top {
+    left: 15px;
+    right: auto;
+}
+.single-restaurant-menu {
+    padding-right: 110px;
+    padding-left: 0;
+}
+.single-restaurant-menu .menu-image {
+    right: 0;
+    left: auto;
+}
+.single-restaurant-menu .menu-content h3 .price {
+    float: left;
+}
+.laureel-food-menu .single-box-menu {
+    padding-right: 135px;
+    padding-left: 30px;
+}
+.laureel-food-menu .single-box-menu .food-image {
+    right: 30px;
+    left: auto;
+}
+.laureel-food-menu .single-box-menu .menu-content h4 .price {
+    float: left;
+}
+.list-unstyled {
+    padding-right: 0;
+}
+.menu-item .menu-image .price {
+    left: 0;
+    right: auto;
+    border-radius: 0 5px 0 0;
+}
+.contact-box p.opening-hours span {
+    float: left;
+    margin-left: 25px;
+    margin-right: 0;
+}
+.contact-box p.opening-hours {
+    text-align: right;
+}
+.offset-lg-2 {
+    margin-right: 16.6666666667%;
+    margin-left: 0;
+}
+.blog-details-area .blog-details .article-img .date {
+    left: 15px;
+    right: auto;
+}
+.blog-details-area .blog-details .article-content .blockquote {
+    border-right: 4px solid #f10909;
+    border-left: none;
+}
+.blog-details-area .post-comments .single-comment {
+    padding-right: 95px;
+    padding-left: 0;
+}
+.blog-details-area .post-comments .single-comment .comment-img {
+    right: 0;
+    left: auto;
+}
+.blog-details-area .post-comments .single-comment.left-m {
+    margin-right: 85px;
+    margin-left: 0;
+}
+.blog-details-area .post-comments .single-comment .comment-content a {
+    left: 0;
+    right: auto;
+}
+.single-box::before {
+    right: 0;
+    left: auto;
+}
+
+/* RTL responsive css*/
+@media only screen and (max-width: 767px) {
+    .tab .tabs_item .single-menu {
+        padding-right: 75px;
+    }
+    .footer-area ul {
+        text-align: center;
+    }
+    .tab .tabs_item .single-menu .food-menu-content h3 .menu-price {
+        float: right;
+    }
+    .single-restaurant-menu .menu-content h3 .price {
+        float: revert;
+    }
+    .laureel-food-menu .single-box-menu {
+        padding-right: 110px;
+    }
+    .laureel-food-menu .single-box-menu .menu-content h4 .price {
+        float: right;
+    }
+    .offset-lg-2 {
+        margin-right: 0;
+    }
+    .blog-details-area .post-comments .single-comment {
+        padding-right: 0;
+    }
+    .blog-details-area .post-comments .single-comment.left-m {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .find-us-area .text-end {
+        text-align: right !important;
+    }
+    .laureel-food-menu .single-box-menu {
+        padding-right: 130px;
+    }
+    .laureel-food-menu .single-box-menu .menu-content h4 .price {
+        float: right;
+    }
+    .main-banner {
+        overflow: hidden;
+    }
+    .offset-lg-2 {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media only screen and (min-width: 1400px) {
+ 
+    
+}
